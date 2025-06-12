@@ -32,5 +32,5 @@ stripchart(noTATAbox$DM_YPD, vertical=T, method="jitter", add=T, at=1,
 stripchart(noTATAbox$DM_YPD, vertical=T, method="jitter", add=T, at=2, 
            col=rgb(0,0,0.5,0.1), pch=20)
 
-
-
+dev.copy2pdf(file="Expression_noise_YesNoTATAbox.pdf", width=10, height=10, useDingbats=F)
+dev.off()
